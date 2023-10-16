@@ -1,0 +1,30 @@
+<div class="margin-container">
+  <h1 class="heading">Playground Angular Apps - Joshua Holly</h1>
+  <div class="flex-container">
+    <mat-card *ngFor="let app of apps">
+      <mat-card-header>
+        <mat-card-title>
+          <h1>
+            {{app.name}}
+          </h1>
+        </mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <p>
+          Creation date: {{app.date}}
+        </p>
+        <div class="flex-column-container spreading-container">
+          <p>
+            {{app.description}}
+          </p>
+          <div >
+            <a href="{{app.link}}" class="flex-column-container" target="_blank">
+              <img src="./assets/{{app.image}}">
+              <button mat-raised-button href="">Open App</button>
+            </a>
+          </div>
+        </div>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>
