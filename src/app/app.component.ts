@@ -38,18 +38,19 @@ export class AppComponent {
         image: "calendar.png"
       },
       {
+        name: "Connect four",
+        date: "2023-12",
+        link: "https://connect-four-angular.web.app/",
+        description: "A hotseat version of the game 'Connect four'.",
+        image: "connect_four.png"
+      },
+      {
         name: "Donite",
         date: "2020-07",
         link: "https://donite-meet-people.web.app/",
         description: "A platform that arranges get-together for making new friends. You can create a profile by choosing your interests, your periods of free time and some miscellaneous infos.",
         image: "donite.png"
     },
-    // {
-    //   name: "",
-    //   date: "",
-    //   link: "",
-    //   description: ""
-    // },
 
   ];
 }
